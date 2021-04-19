@@ -6,6 +6,7 @@
 $ docker-compose up
 $ docker-compose exec app bash
 
+$ npm ci
 $ npm run watch
 ```
 
