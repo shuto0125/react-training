@@ -2,26 +2,31 @@
   {
     "id": 0,
     "name": "田中太郎",
-    "age": 20
+    "age": 20,
+    "completed": false
   },
   {
     "id": 1,
     "name": "加藤二郎",
-    "age": 24
+    "age": 24,
+    "completed": false
   },
   {
     "id": 2,
     "name": "吉田三郎",
-    "age": 28
+    "age": 28,
+    "completed": false
   },
   {
     "id": 3,
     "name": "佐野四郎",
-    "age": 44
+    "age": 44,
+    "completed": false
   },
   {
     "id": 4,
     "name": "和田吾郎",
-    "age": 25
+    "age": 25,
+    "completed": false
   }
 ]

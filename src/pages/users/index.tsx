@@ -26,13 +26,14 @@ export const UserIndexPage: FC = () => {
   }, []);
   // END: useEffect のサンプル
 
-  const { users } = useUserList();
+  const { users, toggleUser } = useUserList();
 
   return (
     <React.Fragment>
       <h1>UserIndex</h1>
       <Link to="/users/1">ユーザーA</Link>
-      <UserList users={users} />
+      {/* {console.log(toggleUser)} */}
+      <UserList users={users} toggleUser={toggleUser} />
     </React.Fragment>
   );
 };
